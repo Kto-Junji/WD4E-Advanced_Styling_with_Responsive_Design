@@ -43,10 +43,31 @@ div{
   padding: 2px;
 }
 
+@media screen and (min-width: 772px) {
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    div {
+        width: 45%;
+    }
+
+    img {
+        max-height: 30vh;
+    }
+}
 
 
+/* Large Screen View */
+@media screen and (min-width: 998px) {
 
-
+    div {
+        width: 30%;
+    }
+}
 
 
 
