@@ -36,11 +36,11 @@ div img{
     margin:auto;
 }
 
-div{
-  display: inline-block;
-  width: 24%;
-  margin: 5px;
-  padding: 2px;
+div {
+    display: block;
+    width: 100%;
+    margin: 5px auto;
+    padding: 2px;
 }
 
 @media screen and (min-width: 772px) {
